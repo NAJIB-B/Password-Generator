@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>password generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="inner">
+        <h2>PASSWORD GENERATOR</h2>
+        <div class="passwordDiv">
+          <input type="text" class="password" />
+          <img src="img/copy.png" alt="" class="copy" /><br />
+        </div>
+
+        <h3>length should be between 1 and 20</h3>
+        <div class="for">
+          <input
+            type="number"
+            placeholder="length"
+            class="length"
+            min="1"
+            max="20"
+          />
+
+          <button class="generate">Generate</button>
+        </div>
+        <div class="conditions">
+          <p>include Upper case letters</p>
+          <input type="checkbox" class="checkBox" name="uppercase" /><br />
+          <p>include numbers</p>
+          <input type="checkbox" class="checkBox" name="number" /><br />
+          <p>include special characters</p>
+          <input type="checkbox" class="checkBox" name="spchar" /><br />
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

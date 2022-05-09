@@ -1,0 +1,114 @@
+.main {
+  width: 30%;
+  height: auto;
+  background-color: rgb(125, 65, 182);
+  box-shadow: 2px 2px 15px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+.inner {
+  padding: 1rem;
+  text-align: center;
+}
+.password {
+  width: 100%;
+  height: 2rem;
+}
+.generate {
+  display: inline;
+  width: 40%;
+  background-color: rgb(186, 113, 219);
+  margin-top: 1rem;
+  border: none;
+}
+.length {
+  width: 40%;
+
+  margin-top: 1rem;
+}
+.for {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.3rem;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+p {
+  font-size: 1.2rem;
+  color: white;
+  display: inline;
+  margin: 0.6rem;
+}
+.checkBox {
+  display: inline;
+  position: absolute;
+  right: 4rem;
+}
+.conditions {
+  text-align: left;
+  margin-top: 1rem;
+}
+.copy {
+  height: 1.8rem;
+  width: 2.3rem;
+  border-radius: 50%;
+  position: absolute;
+  right: 4%;
+  top: 10%;
+}
+.passwordDiv {
+  position: relative;
+}
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    width: 45%;
+  }
+  .checkBox {
+    right: 3rem;
+  }
+  p {
+    font-size: 1rem;
+    color: white;
+    display: inline;
+    margin: 0.6rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main {
+    width: 90%;
+  }
+  .checkBox {
+    right: 1rem;
+  }
+  p {
+    font-size: 1rem;
+    color: white;
+    display: inline;
+    margin: 0.6rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .main {
+    width: 95%;
+  }
+  .checkBox {
+    right: 1rem;
+  }
+  p {
+    font-size: 0.7rem;
+    color: white;
+    display: inline;
+    margin: 0.6rem;
+  }
+}
